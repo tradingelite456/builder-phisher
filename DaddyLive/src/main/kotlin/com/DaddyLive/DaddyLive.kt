@@ -15,9 +15,9 @@ import java.net.URLDecoder
 import java.nio.charset.StandardCharsets
 
 class DaddyLive : MainAPI() {
-    override var lang = "en"
+    override var lang = "fr"
     override var mainUrl: String = BuildConfig.DaddyLive
-    override var name = "DaddyLive"
+    override var name = "CinemaxLive"
     override val hasMainPage = true
     override val hasChromecastSupport = true
     override val supportedTypes = setOf(
